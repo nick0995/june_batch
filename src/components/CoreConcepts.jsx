@@ -1,4 +1,5 @@
 export default function CoreConcepts({ image, title, description }) {
+  console.log("CORE CONCEPTS");
   return (
     <li>
       <img src={image} alt={title}></img>

@@ -8,6 +8,7 @@ function genRandomInt(max) {
 }
 
 export default function Header() {
+  console.log("HEADER COMPONENT");
   const description = reactDescription[genRandomInt(2)];
   return (
     <header>
