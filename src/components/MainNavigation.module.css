@@ -15,3 +15,9 @@
   text-decoration: none;
   color: var(--color-primary-400);
 }
+
+.list a:hover,
+.list a:active {
+  color: var(--color-primary-800);
+  text-decoration: underline;
+}
