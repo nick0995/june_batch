@@ -3,15 +3,22 @@
 <head>
     <title>Weather</title>
     <link rel="stylesheet" href="css/stlyes.css">
-    <script src="js/app.js"></script>
+    
 </head>
 <body>
     <div class="main-content">
          {{>header}}
     <p>Use this site to get your weather!</p>
+
+    <form>
+        <input placeholder="Location">
+        <button >Search</button>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </form>
     </div>
    
     {{>footer}}
-
+    <script src="js/app.js"></script>
 </body>
 </html>
